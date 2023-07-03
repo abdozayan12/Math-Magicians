@@ -8,14 +8,12 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -25,41 +23,35 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖<a>Math-Magicians</a>
+# 📖 [Math__magicians] <a name="about-project"></a>
 
-- "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related
+> This is a math magician's app built with HTML, CSS, and REACT in this app you can make some calculations math like addition and division..etc, also I used the external API to fetch some quotes for the app using the use effect hook.
+
+
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-    <li>React</li>
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- You can see the demo [Here](#)
-
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
+- [x] Set up the project using (CRA) create-react-app👍.
+- [x] Remove the boilerplate from the project after setting up💯.
+- [x] Use the basic CSS style for styling the components.
 
-
-- **Add the style for the app**
-- **Use the ES6 of javascript**
-- **Set up the project using webpack**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -72,74 +64,42 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 
-Example command:
-
-```sh
-1.use a browser
-2.use cable internet
-```
- 
-
 ### Setup
 
 Clone this repository to your desired folder:
 
 
-Example commands:
-
 ```sh
-  
+  cd my-folder
   git clone git@github.com:abdozayan12/Math-Magicians.git
-  cd Math-Magicians
-
 ```
 
 
 ### Install
 
 Install this project with:
-
-
-Example command:
-
 ```sh
+  cd Math-Magicians
   npm install
 ```
-
 
 ### Usage
 
 To run the project, execute the following command:
 
-
-Example command:
-
 ```sh
- npm run start
+  npm start
 ```
 
 
 ### Run tests
 
-To run tests, run the following command:
-
-
-Example command:
+To run tests for the linter, run the following command:
 
 ```sh
-npx hint .
-npx eslint .
+ npx hint .
+npx eslint . --fix
 ```
-
-
-### Deployment
-
-I deployed this project using:
-
-- GitHub Pages
-
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,24 +107,23 @@ I deployed this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-
-👤 **Author1**
+👤 **Abd elhakim Zayan**
 
 - GitHub: [@Abd elhakim Zayan](https://github.com/abdozayan12)
 - Twitter: [@Abd elhakim Zayan](https://twitter.com/zayan_abdo)
-- LinkedIn: [@Abd elhakim Zayan](https://www.linkedin.com/in/abdo-zayan-39b073128/)
+- LinkedIn: [@Abd elhakim Zayan](https://www.linkedin.com/in/htet-wai-yan-903354263/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add test using jest**
-- [ ] **Add SIDEBAR SECTIONS**
-- [ ] **Add NAVBAR SECTIONS**
-- [ ] **Add LIVE CHAT SECTION**
+
+
+- [x] I will test this app using the library from React or maybe use Jest to test it👌💯.
+- [x] Add the react-router dom for the project to navigate from the pages using the navigation
+- [x] Add the Quotes component to fetch the quotes from the API 🚀
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -183,30 +142,32 @@ Feel free to check the [issues page](https://github.com/abdozayan12/Math-Magicia
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project you can leave a star to it.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-- I would like to thank Microverse for giving us an opportunity to learn more about Front-End Development.
-
-- I would also like to thank my coding partners Chis and habtamu for the support toward the completion of this project.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+- If you like this project you can give me a star 😊 just to prove my app that it is useful for everyone and the users can use it to calculate anything 💯.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🙏 Acknowledgments
+
+- I would like to thank Microverse for this opportunity.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/abdozayan12/Leaderboard/blob/Final-touches/MIT.md) licensed.
-
-
+This project is [MIT](https://github.com/HtetWaiYan7191/math-magicians/blob/project-set-up/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
+
+
+
+
+
+
+
