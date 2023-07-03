@@ -156,7 +156,7 @@ Feel free to check the [issues page](https://github.com/abdozayan12/Math-Magicia
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/HtetWaiYan7191/math-magicians/blob/project-set-up/MIT.md) licensed.
+This project is [MIT](https://github.com/abdozayan12/Math-Magicians/blob/Math-Magicians-setup/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
