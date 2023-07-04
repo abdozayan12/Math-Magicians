@@ -1,0 +1,15 @@
+.calc-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    min-width: 300px;
+    text-align: center;
+  }
+  
+  .resultScreen {
+    grid-column: span 4;
+    width: inherit;
+    text-align: right;
+    background-color: beige;
+    padding: 10px 20px;
+  }
+  
