@@ -15,4 +15,5 @@
   justify-content: end;
   justify-items: center;
   align-items: center;
+  border: 1px solid rgb(88, 0, 0);
 }
