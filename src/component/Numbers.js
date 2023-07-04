@@ -2,26 +2,29 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Numbers.css';
 
-function InputButton({ inputSymbol, background }) {
+function InputButton({ inputSymbol, background, handleInputBtn }) {
   const defaultClass = `input-container ${background}`;
   const gridspanClass = `input-container grid-span-2 ${background}`;
 
   return (
     <>
       {inputSymbol === 0 ? (
-        <div className={gridspanClass}>
+        <button type="button" className={gridspanClass} onClick={handleInputBtn}>
           {inputSymbol}
-        </div>
+        </button>
       ) : (
-        <div className={defaultClass}>{inputSymbol}</div>
+        <button type="button" className={defaultClass} onClick={handleInputBtn}>
+          {inputSymbol}
+        </button>
       )}
     </>
   );
 }
 
 InputButton.propTypes = {
-  inputSymbol: PropTypes.isRequired,
-  background: PropTypes.isRequired,
+  inputSymbol: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
+  background: PropTypes.string.isRequired,
+  handleInputBtn: PropTypes.func.isRequired,
 };
 
 export default InputButton;
