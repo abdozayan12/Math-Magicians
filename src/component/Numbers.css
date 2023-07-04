@@ -1,0 +1,23 @@
+.input-container {
+    padding: 8px 15px;
+    border: 1px solid white;
+    text-align: center;
+  }
+  
+  .input-container:is(:hover, :focus) {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+  
+  .grid-span-2 {
+    grid-column: span 2;
+  }
+  
+  .red {
+    background-color: orange;
+  }
+  
+  .gray {
+    background-color: antiquewhite;
+  }
+  
