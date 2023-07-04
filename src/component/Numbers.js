@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './InputNumber.css';
+import './Numbers.css';
 
 function InputButton({ inputSymbol, background, handleInputBtn }) {
   const defaultClass = `input-container ${background}`;
