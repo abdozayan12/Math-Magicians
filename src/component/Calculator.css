@@ -1,19 +1,18 @@
 .calc-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    min-width: 500px;
-    text-align: center;
-  }
-  
-  .resultScreen {
-    display: grid;
-    grid-column: span 4;
-    width: inherit;
-    background-color:aqua ;
-    padding: 10px 20px;
-    height: 63px;
-    justify-content: end;
-    justify-items: center;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  min-width: 500px;
+  text-align: center;
 }
-  
+
+.resultScreen {
+  display: grid;
+  grid-column: span 4;
+  width: inherit;
+  background-color: aqua;
+  padding: 10px 20px;
+  height: 63px;
+  justify-content: end;
+  justify-items: center;
+  align-items: center;
+}
