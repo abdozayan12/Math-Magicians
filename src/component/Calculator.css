@@ -1,15 +1,19 @@
 .calc-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    min-width: 300px;
+    min-width: 500px;
     text-align: center;
   }
   
   .resultScreen {
+    display: grid;
     grid-column: span 4;
     width: inherit;
-    text-align: right;
-    background-color: beige;
+    background-color:aqua ;
     padding: 10px 20px;
-  }
+    height: 63px;
+    justify-content: end;
+    justify-items: center;
+    align-items: center;
+}
   

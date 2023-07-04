@@ -1,7 +1,10 @@
 .input-container {
+    display: flex;
     padding: 8px 15px;
     border: 1px solid white;
-    text-align: center;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
   }
   
   .input-container:is(:hover, :focus) {
@@ -14,10 +17,10 @@
   }
   
   .red {
-    background-color: orange;
+    background-color: #F44336;
   }
   
   .gray {
-    background-color: antiquewhite;
+    background-color:aquamarine;
   }
   
