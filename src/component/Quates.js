@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './Quates.css';
 
 const url = 'https://api.api-ninjas.com/v1/quotes?category=equality';
 
