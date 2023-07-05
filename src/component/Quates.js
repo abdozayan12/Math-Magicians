@@ -27,8 +27,8 @@ function Quotes() {
       });
   }, []);
 
-  if (loading) return <h1>Loading ...</h1>;
-  if (error) return <h1>404</h1>;
+  if (loading) return <h1>Processing ...</h1>;
+  if (error) return <h1>Bad request</h1>;
   return (
     <div className="quotes-container">
       <div>
