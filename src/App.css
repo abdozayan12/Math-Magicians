@@ -80,7 +80,7 @@
 
 .App {
   text-align: center;
-  height: 100vh;
+  height: 90vh;
   display: grid;
   place-items: center;
 }
@@ -93,7 +93,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  height: 100vh;
+  height: 90vh;
 }
 
 .calc-container {
@@ -101,7 +101,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   min-width: 300px;
   text-align: center;
-  height: 90vh;
+  height: 80vh;
   margin: 30px;
 }
 
