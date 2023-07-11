@@ -1,6 +1,150 @@
+:root {
+  --primary-color: #a33846;
+  --secondary-color: #b61e1e;
+  --accent-color: #90313e;
+  --background-color: #d6848c;
+  --text-color: #040102;
+}
+
+.wrapper {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrappper {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 10px 10px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7.5vh;
+  min-height: 70px;
+  background-color: var(--background-color);
+  box-shadow: 0 5px 30px #bebebe;
+}
+
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.link-wrapper {
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+  align-items: center;
+  width: 40%;
+}
+
+.link-wrapper a {
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 11px 18px;
+  border-radius: 12px;
+  position: relative;
+  z-index: 30;
+}
+
+.link-wrapper a::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  bottom: 10%;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  background-color: var(--secondary-color);
+  transition: all 0.3s ease;
+}
+
+.link-wrapper a:hover::before,
+.link-wrapper a.active::before {
+  height: 10%;
+  content: '';
+  position: absolute;
+  z-index: -1;
+  bottom: 10%;
+  left: 0;
+  width: 100%;
+  background-color: blue;
+  transition: all 0.4s ease;
+}
+
 .App {
   text-align: center;
-  height: 100vh;
+  height: 90vh;
   display: grid;
   place-items: center;
+}
+
+.header {
+  display: flex;
+}
+
+.calcu-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 90vh;
+}
+
+.calc-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  min-width: 300px;
+  text-align: center;
+  height: 80vh;
+  margin: 30px;
+}
+
+.resultScreen {
+  display: grid;
+  grid-column: span 4;
+  width: inherit;
+  background-color: aqua;
+  padding: 10px 20px;
+  justify-content: end;
+  justify-items: center;
+  align-items: center;
+}
+
+.input-container {
+  padding: 8px 15px;
+  border: 1px solid white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.input-container:is(:hover, :focus) {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.grid-span-2 {
+  grid-column: span 2;
+}
+
+.red {
+  background-color: #f44336;
+}
+
+.gray {
+  background-color: aquamarine;
+}
+
+.quotes-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  max-width: 40ch;
+  font-size: x-large;
 }

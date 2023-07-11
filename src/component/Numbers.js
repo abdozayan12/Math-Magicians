@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Numbers.css';
 
 function InputButton({ inputSymbol, background, handleInputBtn }) {
   const defaultClass = `input-container ${background}`;
@@ -8,7 +7,7 @@ function InputButton({ inputSymbol, background, handleInputBtn }) {
 
   return (
     <>
-      {inputSymbol === 0 ? (
+      {inputSymbol === '0' ? (
         <button type="button" className={gridspanClass} onClick={handleInputBtn}>
           {inputSymbol}
         </button>
