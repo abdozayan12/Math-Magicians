@@ -16,7 +16,7 @@ function Calculator() {
   return (
 
     <div className="calcu-container">
-      <div className="header"><h1>Lets do some Math!</h1></div>
+      <h2>Lets do some Math!</h2>
       <div className="calc-container">
         <div className="resultScreen">{next || operation || total || 0}</div>
         {number.map((n) => (
