@@ -14,15 +14,20 @@ function Calculator() {
   };
 
   return (
-    <div className="calc-container">
-      <div className="resultScreen">{next || operation || total || 0}</div>
-      {number.map((n) => (
-        n === '÷' || n === 'x' || n === '-' || n === '+' || n === '=' ? (
-          <InputButton inputSymbol={n} key={n} background="red" handleInputBtn={handleInputBtn} />
-        ) : (
-          <InputButton inputSymbol={n} key={n} background="gray" handleInputBtn={handleInputBtn} />
-        )
-      ))}
+
+    <div className="calcu-container">
+      <div className="header"><h1>Lets do some Math!</h1></div>
+      <div className="calc-container">
+        <div className="resultScreen">{next || operation || total || 0}</div>
+        {number.map((n) => (
+          n === '÷' || n === 'x' || n === '-' || n === '+' || n === '=' ? (
+            <InputButton inputSymbol={n} key={n} background="red" handleInputBtn={handleInputBtn} />
+          ) : (
+            <InputButton inputSymbol={n} key={n} background="gray" handleInputBtn={handleInputBtn} />
+          )
+        ))}
+      </div>
+
     </div>
   );
 }

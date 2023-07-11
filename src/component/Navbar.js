@@ -4,11 +4,9 @@ import { NavLink } from 'react-router-dom';
 function Navbar() {
   return (
     <nav className="navbar-container">
-      <div className="wrapper navbar-wrapper">
+      <div className="navbar-wrapper">
         <h2>
-          Math
-          <br />
-          Magician
+          Math Magician
         </h2>
         <div className="link-wrapper">
           <NavLink to="/">Home</NavLink>
