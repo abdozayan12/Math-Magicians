@@ -94,7 +94,6 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   height: 100vh;
-  padding: 20px;
 }
 
 .calc-container {
@@ -102,6 +101,8 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   min-width: 300px;
   text-align: center;
+  height: 90vh;
+  margin: 30px;
 }
 
 .resultScreen {
