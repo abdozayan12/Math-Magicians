@@ -18,7 +18,7 @@ function Calculator() {
     <div className="calcu-container">
       <h2>Lets do some Math!</h2>
       <div className="calc-container">
-        <div className="resultScreen">{next || operation || total || 0}</div>
+        <div className="resultScreen" data-testid="result-screen">{next || operation || total || 0}</div>
         {number.map((n) => (
           n === '÷' || n === 'x' || n === '-' || n === '+' || n === '=' ? (
             <InputButton inputSymbol={n} key={n} background="red" handleInputBtn={handleInputBtn} />
